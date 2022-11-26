@@ -28,3 +28,9 @@
 //      return array;
 //   }
 //   console.log(invert([1,2,3,4,5]));
+
+
+function saleHotdogs(n){
+    return n*(n<5?100:n<10?95:90);
+  }
+  console.log(saleHotdogs(3));
